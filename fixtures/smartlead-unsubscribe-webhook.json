@@ -1,0 +1,9 @@
+{
+  "event_type": "LEAD_UNSUBSCRIBED",
+  "campaign_id": 111111,
+  "campaign_name": "Example Outbound Campaign",
+  "sl_email_lead_id": 222222,
+  "to_email": "unsubscribed.lead@prospect-two.example",
+  "to_name": "Sample Lead",
+  "event_timestamp": "2026-11-15T06:30:00.000Z"
+}

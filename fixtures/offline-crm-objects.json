@@ -1,0 +1,131 @@
+{
+  "deal:9001": {
+    "deal": {
+      "id": "9001",
+      "dealname": "Example Company Inc. - Annual",
+      "pipeline": "default",
+      "dealstage": "closedwon",
+      "hs_is_closed": "true",
+      "hs_is_closed_won": "true"
+    },
+    "companies": [
+      {
+        "id": "7001",
+        "name": "Example Company Inc.",
+        "domain": "customer.example",
+        "hs_additional_domains": "customer-group.example",
+        "lifecyclestage": "customer",
+        "type": "PROSPECT"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "5001",
+        "email": "buyer@customer.example"
+      },
+      {
+        "id": "5002",
+        "email": "placeholder.contact@gmail.com"
+      },
+      {
+        "id": "5003",
+        "email": "account.manager@yourcompany.example"
+      }
+    ]
+  },
+  "deal:9002": {
+    "deal": {
+      "id": "9002",
+      "dealname": "Prospect Example Ltd - Pilot",
+      "pipeline": "default",
+      "dealstage": "presentationscheduled",
+      "hs_is_closed": "false",
+      "hs_is_closed_won": "false"
+    },
+    "companies": [
+      {
+        "id": "7002",
+        "name": "Prospect Example Ltd",
+        "domain": "https://www.prospect.example/",
+        "lifecyclestage": "opportunity"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "5004",
+        "email": "evaluator@prospect.example"
+      }
+    ]
+  },
+  "deal:9003": {
+    "deal": {
+      "id": "9003",
+      "dealname": "Lost Example Co - Expansion",
+      "pipeline": "default",
+      "dealstage": "closedlost",
+      "hs_is_closed": "true",
+      "hs_is_closed_won": "false"
+    },
+    "companies": [
+      {
+        "id": "7003",
+        "name": "Lost Example Co",
+        "domain": "lost.example"
+      }
+    ],
+    "contacts": []
+  },
+  "company:7004": {
+    "company": {
+      "id": "7004",
+      "name": "Competitor Example Corp",
+      "domain": "competitor.example",
+      "type": "COMPETITOR",
+      "lifecyclestage": "other"
+    },
+    "companies": [
+      {
+        "id": "7004",
+        "name": "Competitor Example Corp",
+        "domain": "competitor.example",
+        "type": "COMPETITOR",
+        "lifecyclestage": "other"
+      }
+    ],
+    "contacts": []
+  },
+  "contact:5005": {
+    "contact": {
+      "id": "5005",
+      "email": "optout.person@prospect.example",
+      "hs_email_optout": "true",
+      "lifecyclestage": "lead"
+    },
+    "companies": [],
+    "contacts": [
+      {
+        "id": "5005",
+        "email": "optout.person@prospect.example",
+        "hs_email_optout": "true",
+        "lifecyclestage": "lead"
+      }
+    ]
+  },
+  "recentDeals": [
+    {
+      "objectType": "deal",
+      "objectId": "9001",
+      "trigger": "reconciliation"
+    },
+    {
+      "objectType": "deal",
+      "objectId": "9002",
+      "trigger": "reconciliation"
+    },
+    {
+      "objectType": "deal",
+      "objectId": "9003",
+      "trigger": "reconciliation"
+    }
+  ]
+}
