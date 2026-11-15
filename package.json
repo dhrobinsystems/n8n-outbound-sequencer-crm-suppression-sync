@@ -1,0 +1,20 @@
+{
+  "name": "n8n-outbound-sequencer-crm-suppression-sync",
+  "version": "1.0.0",
+  "description": "Bi-directional suppression firewall between HubSpot and Smartlead / Instantly: pushes closed-won customers, open-deal domains, competitor domains and do-not-contact opt-outs into global sequencer blocklists within seconds of CRM changes, and syncs sequencer opt-outs back to HubSpot. DRY_RUN and SANDBOX_MODE by default.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "simulate": "node src/index.js --simulate",
+    "reconcile": "node src/index.js --reconcile",
+    "test": "node --test tests/suppression.test.js",
+    "build:workflow": "node scripts/build-workflow.js"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "dependencies": {},
+  "keywords": ["n8n", "hubspot", "smartlead", "instantly", "suppression", "blocklist", "cold-email", "revops"],
+  "author": { "name": "DH Robin | dhRobin Systems", "url": "https://dhrobinsystems.com" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/dhrobinsystems/n8n-outbound-sequencer-crm-suppression-sync.git" }
+}
