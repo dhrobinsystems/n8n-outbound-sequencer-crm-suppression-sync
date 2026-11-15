@@ -39,6 +39,8 @@ Out of the box it pushes nothing: `DRY_RUN=true`, `SANDBOX_MODE=true`, and every
 
 ## Architecture overview
 
+![n8n Workflow Overview](assets/n8n-workflow-overview.png)
+
 ```
  ┌───────────────────────── 1. CRM → SEQUENCERS (seconds) ─────────────────────────┐
  │ HubSpot webhook (deal / company / contact events, batched up to 100 per call)   │
